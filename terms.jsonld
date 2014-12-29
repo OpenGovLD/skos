@@ -1,0 +1,101 @@
+{
+    "@context": {
+        "opengov": "http://www.w3.org/ns/opengov#",
+        "skos": "http://www.w3.org/2004/02/skos/core#"
+    },
+    "@id": "opengov:papertypes",
+    "@graph": [
+        {
+            "@id": "opengov:papertypes#paper",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Drucksache"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Document"
+            },
+            "skos:altLabel": {
+                "@language": "de",
+                "@value": "Vorlage"
+            },
+            "skos:definition": {
+                "@language": "de",
+                "@value": "Eine nicht näher definierte Drucksache"
+            },
+            "skos:definition": {
+                "@language": "en",
+                "@value": "generic document"
+            }
+        },
+        {
+            "@id": "opengov:papertypes#request",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Antrag"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "motion"
+            },
+            "skos:definition": {
+                "@language": "de",
+                "@value": "Eine Drucksache, die von einer Fraktion oder einer Gruppe von Abgeordneten erstellt wurde. Mit dem Antrag wird das Parlament aufgefordert, etwas Bestimmtes zu beschließen."
+            },
+            "skos:definition": {
+                "@language": "en",
+                "@value": "this string should be an English translation of the definition of the German term 'Antrag'."
+            }
+        },
+        {
+            "@id": "opengov:papertypes#question",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Anfrage"
+            },
+            "skos:definition": {
+                "@language": "de",
+                "@value": "Eine Drucksache, die von einer Fraktion oder einer Gruppe von Abgeordneten erstellt wurde. Sie enthält eine oder mehrere Fragen an die Regierung oder Verwaltung."
+            }
+        },
+        {
+            "@id": "opengov:papertypes#response",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Antwort"
+            },
+            "skos:definition": {
+                "@language": "de",
+                "@value": "Eine Drucksache, mit der eine Anfrage beantwortet wird."
+            }
+        },
+        {
+            "@id": "opengov:papertypes#bulletin",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Mitteilung"
+            },
+            "skos:definition": {
+                "@language": "de",
+                "@value": "Eine Drucksache, die von der Regierung oder Verwaltung erstellt wurde. Sie enthält Informationen an das Parlament oder an Gremien des Parlaments."
+            }
+        },
+        {
+            "@id": "opengov:papertypes#draftresolution",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Beschlussvorlage"
+            },
+            "skos:definition": {
+                "@language": "de",
+                "@value": "Eine Drucksache, die einen Entwurf eines Beschlusses enthält, der vom Parlament oder einem parlamentarischen Gremium gefasst werden soll."
+            }
+        }
+    ]
+}
