@@ -5,7 +5,7 @@ SKOS Concepts and Concept Schemes
 
 Example terms are "city council", "committee", "finance committee", "subcommittee", "mayor | mayoress", councillor", "chairman | chairwoman" (and/or "chairperson"), "alderman | alderwoman" (and/or "alderperson"), "parliamentary caucus", "political party", "motion", "bill", "amendment" etc.
 
-At the moment we are mostly active regardingEnglish and German terms. But other languages also are most welcome.
+At the moment we are mostly active regarding English and German terms. But other languages also are most welcome.
 
 The quality of the terms and translations is more important than a large number of them.
 
