@@ -3,8 +3,128 @@
         "opengov": "http://www.w3.org/ns/opengov#",
         "skos": "http://www.w3.org/2004/02/skos/core#"
     },
-    "@id": "opengov:papertypes",
+    "@id": "opengov:skosobjects",
     "@graph": [
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Stadtrat"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "City council"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Ausschuss"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Committee"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Unterausschuss"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Subcommittee"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Finanzausschuss"
+            },
+            "skos:altLabel": {
+                "@language": "de",
+                "@value": "Ausschuss für Finanzen"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Finance committee"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Parliamentary caucus"
+            }
+        },
+        {   
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Partei"
+            },
+            "skos:altLabel": {
+                "@language": "de",
+                "@value": "Politische Partei"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Party"
+            },
+            "skos:altLabel": {
+                "@language": "en",
+                "@value": "Political party"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Bürgermeister | Bürgermeisterin"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Mayor | Mayoress"
+            }
+        },
+        {   
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Vorsitzender | Vorsitzende"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Chairman | Chairwoman"
+            },
+            "skos:altLabel": {
+                "@language": "en",
+                "@value": "Chairperson"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Alderman | Alderwoman"
+            },
+            "skos:altLabel": {
+                "@language": "en",
+                "@value": "Alderperson"
+            }
+        },
         {
             "@id": "opengov:papertypes#paper",
             "@type": "skos:Concept",
@@ -27,6 +147,26 @@
             "skos:definition": {
                 "@language": "en",
                 "@value": "generic document"
+            }
+        },
+        {
+            "@id": "opengov:papertypes#bill",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Bill"
+            }
+        },
+        {   
+            "@id": "opengov:papertypes#amendment",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
+                "@value": "Änderungsantrag"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Amendment"
             }
         },
         {
