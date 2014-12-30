@@ -46,6 +46,18 @@
             "@type": "skos:Concept",
             "skos:prefLabel": {
                 "@language": "de",
+                "@value": "Hauptausschuss"
+            },
+            "skos:altLabel": {
+                "@language": "en",
+                "@value": "Main committee"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "de",
                 "@value": "Finanzausschuss"
             },
             "skos:altLabel": {
@@ -111,6 +123,18 @@
             "skos:altLabel": {
                 "@language": "en",
                 "@value": "Chairperson"
+            }
+        },
+        {
+            "@id": "opengov:xyz",
+            "@type": "skos:Concept",
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Mitglied"
+            },
+            "skos:prefLabel": {
+                "@language": "en",
+                "@value": "Member"
             }
         },
         {
