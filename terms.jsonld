@@ -15,6 +15,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "City council"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Conseil municipal"
             }
         },
         {
@@ -27,6 +31,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Committee"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Commission"
             }
         },
         {
@@ -39,6 +47,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Subcommittee"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Sous-commission"
             }
         },
         {
@@ -51,6 +63,10 @@
             "skos:altLabel": {
                 "@language": "en",
                 "@value": "Main committee"
+            },
+            "skos:altLabel": {
+                "@language": "fr",
+                "@value": "Commission principale"
             }
         },
         {
@@ -67,6 +83,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Finance committee"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Commission des finances"
             }
         },
         {
@@ -75,6 +95,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Parliamentary caucus"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Groupe parlementaire"
             }
         },
         {   
@@ -95,6 +119,14 @@
             "skos:altLabel": {
                 "@language": "en",
                 "@value": "Political party"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Parti"
+            },
+            "skos:altLabel": {
+                "@language": "fr",
+                "@value": "Parti politique"
             }
         },
         {
@@ -107,6 +139,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Mayor | Mayoress"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Maire"
             }
         },
         {   
@@ -123,6 +159,10 @@
             "skos:altLabel": {
                 "@language": "en",
                 "@value": "Chairperson"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Président"
             }
         },
         {
@@ -135,6 +175,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Member"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Membre"
             }
         },
         {
@@ -147,6 +191,10 @@
             "skos:altLabel": {
                 "@language": "en",
                 "@value": "Alderperson"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Conseiller municipal"
             }
         },
         {
@@ -171,6 +219,14 @@
             "skos:definition": {
                 "@language": "en",
                 "@value": "generic document"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Document"
+            },
+            "skos:definition": {
+                "@language": "fr",
+                "@value": "document générique"
             }
         },
         {
@@ -179,6 +235,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Bill"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Proposition de loi"
             }
         },
         {   
@@ -191,6 +251,10 @@
             "skos:prefLabel": {
                 "@language": "en",
                 "@value": "Amendment"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Amendement"
             }
         },
         {
@@ -202,7 +266,11 @@
             },
             "skos:prefLabel": {
                 "@language": "en",
-                "@value": "motion"
+                "@value": "Motion"
+            },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Résolution"
             },
             "skos:definition": {
                 "@language": "de",
@@ -211,6 +279,10 @@
             "skos:definition": {
                 "@language": "en",
                 "@value": "this string should be an English translation of the definition of the German term 'Antrag'."
+            },
+            "skos:definition": {
+                "@language": "fr",
+                "@value": "cette chaîne devrait être une traduction de la définition du terme allemand 'Antrag'."
             }
         },
         {
@@ -220,9 +292,17 @@
                 "@language": "de",
                 "@value": "Anfrage"
             },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Question"
+            },
             "skos:definition": {
                 "@language": "de",
                 "@value": "Eine Drucksache, die von einer Fraktion oder einer Gruppe von Abgeordneten erstellt wurde. Sie enthält eine oder mehrere Fragen an die Regierung oder Verwaltung."
+            },
+            "skos:definition": {
+                "@language": "fr",
+                "@value": "cette chaîne devrait être une traduction de la définition du terme allemand 'Anfrage'."
             }
         },
         {
@@ -232,9 +312,17 @@
                 "@language": "de",
                 "@value": "Antwort"
             },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Réponse"
+            },
             "skos:definition": {
                 "@language": "de",
                 "@value": "Eine Drucksache, mit der eine Anfrage beantwortet wird."
+            },
+            "skos:definition": {
+                "@language": "fr",
+                "@value": "cette chaîne devrait être une traduction de la définition du terme allemand 'Antwort'."
             }
         },
         {
@@ -244,9 +332,17 @@
                 "@language": "de",
                 "@value": "Mitteilung"
             },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Projet de loi"
+            },
             "skos:definition": {
                 "@language": "de",
                 "@value": "Eine Drucksache, die von der Regierung oder Verwaltung erstellt wurde. Sie enthält Informationen an das Parlament oder an Gremien des Parlaments."
+            },
+            "skos:definition": {
+                "@language": "fr",
+                "@value": "cette chaîne devrait être une traduction de la définition du terme allemand 'Mitteilung'."
             }
         },
         {
@@ -256,9 +352,17 @@
                 "@language": "de",
                 "@value": "Beschlussvorlage"
             },
+            "skos:prefLabel": {
+                "@language": "fr",
+                "@value": "Proposition de résolution"
+            },
             "skos:definition": {
                 "@language": "de",
                 "@value": "Eine Drucksache, die einen Entwurf eines Beschlusses enthält, der vom Parlament oder einem parlamentarischen Gremium gefasst werden soll."
+            },
+            "skos:definition": {
+                "@language": "fr",
+                "@value": "cette chaîne devrait être une traduction de la définition du terme allemand 'Beschlussvorlage'."
             }
         }
     ]
